@@ -11,7 +11,7 @@ The main goals:
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure.
 
 > Adjust folder names / languages as needed.
 
