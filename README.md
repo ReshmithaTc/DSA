@@ -1,4 +1,4 @@
-# 🧠 DSA Practice Repository
+# 🧠 DSA Practice Problems
 
 Welcome! This repository is dedicated to systematically solving **Data Structures & Algorithms (DSA)** problems for interview prep (FAANG-style, product-based companies, and competitive programming).
 
