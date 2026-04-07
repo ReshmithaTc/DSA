@@ -8,5 +8,6 @@ class Solution:
             if diff in hashmap:
                 return[hashmap[diff], i]
 
-            hashmap[num] = i        
+            hashmap[num] = i   
+TC-O(N)
         
