@@ -1,1 +1,25 @@
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
 
+        words=s.split()
+        if len(pattern)!=len(words):
+            return False
+
+        pattern_to_s={}
+        s_to_pattern={}
+
+        for c1, c2 in zip(pattern, words):
+            if c1 in pattern_to_s:
+                if pattern_to_s[c1]!=c2:
+                    return False
+
+            if c2 in s_to_pattern:
+                if s_to_pattern[c2]!=c1:
+                    return False 
+
+            pattern_to_s[c1]=c2 
+            s_to_pattern[c2]=c1 
+        return True    
+
+
+        
