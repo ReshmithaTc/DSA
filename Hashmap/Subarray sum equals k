@@ -13,7 +13,7 @@ class Solution:
             prefix_map[prefix_sum]= prefix_map.get(prefix_sum, 0) +1
         return count      
 
-
+ tc: O(n)
 brute force approach:
 
         #     for i in range(len(nums)):
@@ -25,3 +25,4 @@ brute force approach:
         # return count            
 
                    
+tc: O(n2)
