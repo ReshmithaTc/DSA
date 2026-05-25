@@ -10,3 +10,4 @@ class Solution:
 
             hashmap[num] = i        
         
+ 
