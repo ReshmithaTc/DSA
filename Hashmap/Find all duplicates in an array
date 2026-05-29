@@ -1,0 +1,20 @@
+class Solution:
+    def findDuplicates(self, nums: List[int]) -> List[int]:
+             
+        # res=[]
+        # nums.sort()
+        # for i in range(len(nums)-1):
+        #     if nums[i]==nums[i+1]:
+        #         res.append(nums[i])
+                
+        # return res  [TC: Nlogn]
+
+        hashmap={}
+        res=[]
+
+        for num in nums:
+            if num in hashmap:
+                res.append(num)
+            else:
+                hashmap[num]=1
+        return res    # Tc= O(N)        
