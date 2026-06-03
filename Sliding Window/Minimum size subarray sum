@@ -14,3 +14,4 @@ class Solution:
         if min_len==float('inf'):
             return 0 
         return min_len           
+
