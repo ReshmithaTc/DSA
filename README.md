@@ -13,7 +13,7 @@ The main goals:
 
 ## 📂 Repository Structure.
 
-> Adjust folder names / languages as needed.
+
 
 ```bash
 .
