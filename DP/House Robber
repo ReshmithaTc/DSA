@@ -3,4 +3,5 @@ def rob(nums):
   for num in nums:
   prev, curr=curr, max(curr,prev+num)
 return curr
+
  
