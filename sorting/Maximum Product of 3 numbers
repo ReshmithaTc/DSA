@@ -1,0 +1,21 @@
+# product of 3 nums can be obtained by:
+# 1. The three largest numbers.
+# 2. The two smallest (most negative) numbers and the largest positive number.
+# [-10, -10, 5, 2]
+
+# Largest three:
+# 5 × 2 × (-10) = -100
+
+# Two smallest × largest:
+# (-10) × (-10) × 5 = 500 ✅
+---------------------------------------------------------------------------------------------------------------------------
+
+class Solution:
+    def maximumProduct(self, nums: List[int]) -> int:
+
+        nums.sort()
+        
+        return max(
+            (nums[-1]*nums[-2]*nums[-3]),
+            (nums[0]*nums[1]*nums[-1])
+        )
