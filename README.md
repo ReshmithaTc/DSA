@@ -15,7 +15,6 @@ The main goals:
 ## 📂 Repository Structure.
 
 
-
 ```bash
 .
 ├── arrays/
