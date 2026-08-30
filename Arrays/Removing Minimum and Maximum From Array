@@ -1,1 +1,20 @@
+class Solution:
+    def minimumDeletions(self, nums: List[int]) -> int:
+        n = len(nums)
 
+        mi = nums.index(min(nums))
+        ma = nums.index(max(nums))
+
+        if mi > ma:
+            mi, ma = ma, mi
+
+        # 1. Remove both from front
+        a = ma + 1
+
+        # 2. Remove both from back
+        b = n - mi
+
+        # 3. Remove min from front and max from back
+        c = mi + 1 + n - ma
+
+        return min(a, b, c)
