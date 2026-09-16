@@ -5,3 +5,4 @@ class Solution:
         return ((nums[-1]-1)*(nums[-2]-1))
 
 
+
