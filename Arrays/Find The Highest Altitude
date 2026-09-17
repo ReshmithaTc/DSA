@@ -8,3 +8,4 @@ class Solution:
             max_altitude = max(max_altitude, altitude)
 
         return max_altitude
+
