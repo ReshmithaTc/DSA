@@ -9,3 +9,4 @@ class Solution:
                       OR
 
         return Counter(ransomNote)<=Counter(magazine)
+
